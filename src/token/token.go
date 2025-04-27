@@ -17,6 +17,10 @@ const (
 	// Operators
 	ASSIGN = "="
 	PLUS   = "+"
+	MINUS  = "-"
+	DIVIDE = "/"
+	MULT   = "*"
+	BANG   = "!"
 
 	//Delimiters
 	COMMA     = ","
@@ -26,6 +30,9 @@ const (
 	RPAREN = ")"
 	LBRACE = "{"
 	RBRACE = "}"
+
+	LT = "<"
+	GT = ">"
 
 	// Keywords
 	FUNCTION = "FUNCTION"
